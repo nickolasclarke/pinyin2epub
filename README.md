@@ -87,8 +87,9 @@ pinyin2epub adds pinyin to epub files.
             </ruby>
             
             
-# HOW TO USE  
-`>>python pinyin2epub.py`  
+# HOW TO USE
+`>>pip install -r requirements.txt`
+`>>python pinyin2epub.py`
 
 pinyin2epub reads all epub files in same directory.  
 
@@ -98,7 +99,7 @@ original epub files are moved in `./converted_original` folder.
 # REQUIREMENT  
 BeautifulSoup  
 SnowNLP  
-pinyin  
+pypinyin
 
 
 # LICENSE
